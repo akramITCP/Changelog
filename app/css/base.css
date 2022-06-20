@@ -1,0 +1,22 @@
+body{
+   background-color: #fcfcfc; 
+}
+
+.container{
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+
+.logo{
+    width: 10%;
+    height: auto;
+}
+
+/* #subtitle::before {
+    content: "🔗︎";
+    display: inline-block;
+    font-size: 14pt;
+    left: -1.75em;
+    line-height: 1.66;
+    opacity: .2;
+    padding-right: 0.2em;
+} */
