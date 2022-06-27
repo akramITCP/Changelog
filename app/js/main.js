@@ -9,14 +9,14 @@ $(() => {
 function FetchData() {
   ZOHO.CREATOR.init().then(function () {
     config = {
-      appName: "ITCP-Backoffice-v2",
-      reportName: "Release_Report",
+      reportName: "ChangeLog1_Report",
       criteria: "",
     };
 
     // Get data from Zoho
     ZOHO.CREATOR.API.getAllRecords(config).then(function (response) {
       var data = response.data;
+      console.log(data);
 
       var md = new remarkable.Remarkable();
 
